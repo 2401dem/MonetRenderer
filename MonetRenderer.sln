@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "functionaltest", "src\functionaltest\functionaltest.vcxproj", "{E85D76F3-677A-45F6-8859-EC9795416F8C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libmonet", "src\libmonet\libmonet.vcxproj", "{6F134D97-7B95-4586-810D-E69C404FA848}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C77CDE8B-790F-4413-A3FB-D413E7368FB5} = {C77CDE8B-790F-4413-A3FB-D413E7368FB5}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libxdma", "src\libxdma\libxdma.vcxproj", "{8A516BCB-685A-4A46-A298-A477F804273A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XDMA_Driver", "src\sys\XDMA_Driver.vcxproj", "{C77CDE8B-790F-4413-A3FB-D413E7368FB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E85D76F3-677A-45F6-8859-EC9795416F8C}.Debug|x64.ActiveCfg = Debug|x64
+		{E85D76F3-677A-45F6-8859-EC9795416F8C}.Debug|x64.Build.0 = Debug|x64
+		{E85D76F3-677A-45F6-8859-EC9795416F8C}.Release|x64.ActiveCfg = Release|x64
+		{E85D76F3-677A-45F6-8859-EC9795416F8C}.Release|x64.Build.0 = Release|x64
+		{6F134D97-7B95-4586-810D-E69C404FA848}.Debug|x64.ActiveCfg = Debug|x64
+		{6F134D97-7B95-4586-810D-E69C404FA848}.Debug|x64.Build.0 = Debug|x64
+		{6F134D97-7B95-4586-810D-E69C404FA848}.Release|x64.ActiveCfg = Release|x64
+		{6F134D97-7B95-4586-810D-E69C404FA848}.Release|x64.Build.0 = Release|x64
+		{8A516BCB-685A-4A46-A298-A477F804273A}.Debug|x64.ActiveCfg = Debug|x64
+		{8A516BCB-685A-4A46-A298-A477F804273A}.Debug|x64.Build.0 = Debug|x64
+		{8A516BCB-685A-4A46-A298-A477F804273A}.Debug|x64.Deploy.0 = Debug|x64
+		{8A516BCB-685A-4A46-A298-A477F804273A}.Release|x64.ActiveCfg = Release|x64
+		{8A516BCB-685A-4A46-A298-A477F804273A}.Release|x64.Build.0 = Release|x64
+		{8A516BCB-685A-4A46-A298-A477F804273A}.Release|x64.Deploy.0 = Release|x64
+		{C77CDE8B-790F-4413-A3FB-D413E7368FB5}.Debug|x64.ActiveCfg = Debug|x64
+		{C77CDE8B-790F-4413-A3FB-D413E7368FB5}.Debug|x64.Build.0 = Debug|x64
+		{C77CDE8B-790F-4413-A3FB-D413E7368FB5}.Debug|x64.Deploy.0 = Debug|x64
+		{C77CDE8B-790F-4413-A3FB-D413E7368FB5}.Release|x64.ActiveCfg = Release|x64
+		{C77CDE8B-790F-4413-A3FB-D413E7368FB5}.Release|x64.Build.0 = Release|x64
+		{C77CDE8B-790F-4413-A3FB-D413E7368FB5}.Release|x64.Deploy.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA56A7AB-751A-4265-BD0C-82D7056F8F48}
+	EndGlobalSection
+EndGlobal
